@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Louise Quinn Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
+        <link rel="stylesheet" href="https://loonylou.github.io/style.css">
+    </head>
+    <body class="scrollspy-example" data-spy="scroll" data-target="#navmenu" data-offset="200">
+        <div id="mysite">
+            <div id="navbar" class="col-12 col-sm-12 col-md-12">
+                <div id="navcontainer">
+                    <h1 id="sitename" class="col-7 col-sm-7 col-md-5 float-left text-primary">Louise Quinn</h1>
+                    <nav id="navmenu" class="nav navbar col-3 col-sm-3 col-md-7 float-right nav-pills nav-justified navbar-expand-md">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu-content" aria-controls="navmenu-content" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <i class="fas fa-bars"></i>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navmenu-content">
+                            <a class="nav-item nav-link active" href="#about">About</a>
+                            <a class="nav-item nav-link" href="#portfolio">Personal Projects</a>
+                            <a class="nav-item nav-link" href="#volunteer">Volunteer Projects</a>
+                            <!-- <a class="nav-item nav-link" href="#contact">Contact</a> -->
+                        </div>
+                    </nav>
+                </div> <!-- /navcontainer -->
+            </div>
+
+            <div id="mainbody" class="container-fluid col-md-12">
+                <div id="maincontent">
+                    <div id="aboutSection" class="col-12 col-sm-12 col-md-12 anchortarget">
+                        <span id="about"></span>
+                        <div class="col-12 col-sm-12 col-md-12" id="welcome-section">
+                            <h1>Louise Quinn</h1>
+                            <p id="about1">
+                                <span>Coding Ethusiast.<span>
+                                <br />
+                                    <!-- <p id="about2">PHP JS</p> -->
+                                    <div id="imgDiv">
+                                        <img id="profilepic" src="/img/profile.png" alt="Louise Profile Pic" class="img-responsive float-right">
+                                    </div>
+                        </div><!-- col-md-12 -->
+                    </div> <!-- /about -->
+
+                    <div id="portfolioSection" class="anchortarget">
+                        <span id="portfolio"></span>
+                        <h2 class="text-secondary text-center">Personal Projects</h2>
+                        <hr class="headerLine" />
+
+                        <div id="projects" class="card-deck">
+                            <div class="card project-tile">
+                                <img class="card-img-top" src="/img/ethicalfair.png" alt="Ethical Fair Screenshot" border="0">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="http://www.ethicalfair.com" target="_blank">Ethical Fair - Shopping Directory</a>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="card project-tile">
+                                <img class="card-img-top" src="/img/ceolais.png" alt="Tribute Page Screenshot" border="0">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="http://ceolais.louisequinn.tech" target="_blank">Ceolais - Spotify Playlist Analyser</a></h5>
+                                    </div>
+                                </div>
+                        </div> <!-- /projects -->
+                    </div> <!-- /portfolio -->
+
+                     <div id="volunteerSection" class="anchortarget">
+                        <span id="volunteer"></span>
+                        <h2 class="text-secondary text-center">Volunteer Projects</h2>
+                        <hr class="headerLine" />
+
+                        <div id="volunteerprojects" class="card-deck">
+                            <div class="card project-tile col-12">
+                                <div class="card-body col-12">
+                                    <div class="m-auto">
+                                        <h5 class="card-title">
+                                            <a href="https://impactgarden.org/" target="_blank">Impact Garden</a>
+                                        </h5>
+                                    </div>
+                                    <div class="col-8 m-auto">
+                                        <p><b>Website Technical Volunteer</b></p>
+                                        <p>Supported the site build through content upload, quality control, user experience & functionality testing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card project-tile col-12">
+                                <div class="card-body col-12">
+                                    <div class="m-auto">
+                                        <h5 class="card-title">
+                                            <a href="#" target="_blank">Be The Difference</a>
+                                        </h5>
+                                    </div>
+                                    <div class="col-8 m-auto">
+                                        <p><b>Technical Lead</b></p>
+                                        <p>Led the technical side of website redesign project.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- /volunteer-projects -->
+                    </div> <!-- /portfolio -->
+<!--
+                    <div id="contactSection" class="col-md-12 anchortarget">
+                        <span id="contact"></span>
+                        <h2 class="text-secondary text-center">Contact Me</h2>
+                        <hr class="headerLine" />
+                        <div class="col-md-12">
+                            <form class="col-md-6 float-left" action="mailto:loonylou@gmail.com" method="post" enctype="text/plain">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="contact-email" aria-describedby="emailinfo" placeholder="Email" required>
+                                    <small id="emailinfo" class="form-text text-muted text-right">I'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" id="contact-phone" placeholder="Phone">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="contact-message" placeholder="Your Message" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </form>
+                            <div id="contactblurb" class="col-md-6 float-right">
+                                <p>Get in touch if you'd like to work together, or you have feedback on any of my portfolio.</p>
+                                <p>I'm open to hearing about all collaboration ideas, especially anything related to Ethical Consumerism, Charity or Open Source.</p>
+                            </div>
+                        </div><!-- col-md-12 -->
+                    <!-- </div> <!-- /contact -->
+
+                </div>
+            </div>
+
+            <div id="footer" class="col-md-12">
+              <!--  <div id="footer1" class="col-md-12">
+                    <div class="col-md-6 float-left">
+                        <p class="text-center">Made with <i class="fas fa-moon"></i> and <i class="fas fa-smile"></i> by Louise Quinn.</p>
+                    </div>
+                    <div class="col-md-6 float-right">
+                        <div class="text-center">
+                            <a href="https://github.com/loonylou" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://codepen.io/loonylou/" target="_blank"><i class="fab fa-codepen"></i></a>
+                        </div>
+                    </div>
+                </div> -->
+                <div id="footer2" class="col-md-12 text-center">
+                    <a href="https://github.com/loonylou" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://codepen.io/loonylou/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    <p>Louise Q © 2020. All Rights Reversed.</p>
+                </div>
+            </div>
+        </div> <!-- /mysite -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

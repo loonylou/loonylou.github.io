@@ -1,0 +1,256 @@
+body {
+	background-color: #ccc;
+	position: relative;
+}
+#welcome-section {
+	min-height: 350px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+#imgDiv {
+	display: inline-block;
+}
+#navbar {
+	height: 60px;
+	background-color: #008080;
+	position: fixed;
+	z-index: 1000;
+}
+#navcontainer {
+	max-width: 1500px;
+	margin: auto;
+	padding: 0px;
+	display: flex;
+}
+#navmenu {
+	padding: 5px 0px;
+}
+.nav-item {
+	font-size: 1.5em;
+}
+.nav-link {
+	color: #ccc;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background-color: #fff;
+	color: #008080;
+	border-radius: 0px;
+}
+.navbar-toggler {
+	padding: 0rem 0.75rem 0rem .25rem !important;
+}
+.navbar-toggler-icon {
+	width: 4em;
+	height: 3em;
+	float: right;
+	text-align: right;
+}
+.collapse.show {
+	position: fixed;
+	display: flex;
+	top: 60px;
+	left: 0px;
+	font-size: 0.75em;
+	width: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background-color: #008080;
+	color: #fff;
+}
+/** Fixed Nav Anchor Links **/
+#about, #portfolio, #contact {
+	margin-top: -110px !important;
+	padding-bottom: 110px !important;
+	display: block !important;
+}
+#sitename {
+	color: #fff !important;
+	top: 7px;
+}
+#mainbody {
+	background-color: #ccc;
+	top: 35px;
+}
+#maincontent {
+	background-color: #fff;
+}
+#profilepic {
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #008080;
+	max-width: 200px;
+}
+#aboutSection {
+	padding: 40px;
+	font-size: 1.5em;
+	color: #008080;
+	border-bottom: solid 10px #ccc;
+}
+#portfolioSection, #volunteerSection {
+	text-align: center;
+	padding: 40px;
+	border-bottom: solid 10px #ccc;
+}
+.card {
+	border: 0px;
+}
+.card img {
+	border: 1px solid #888;
+	height: 300px;
+	max-width: 500px;
+	margin: auto;
+}
+.card-body {
+	padding: 0.25rem;
+}
+#contactSection {
+	padding: 40px;
+	display: inline-block;
+}
+#contactblurb {
+	margin-top: 25px;
+	text-align: justify;
+}
+.form-control {
+	border-bottom: 1px solid #888;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 0;
+	padding: 10px 0px;
+}
+input#contact-message {
+	padding-bottom: 100px;
+}
+.btn {
+	float: right;
+}
+#footer {
+	display: inline-grid;
+	position: relative;
+	top: 35px;
+}
+#footer1 {
+    	color: #000;
+   	background-color: #fff;
+	padding: 40px;
+}
+#footer1 div p {
+	font-size: 1.2em;
+	font-weight: 200;
+}
+#footer2 {
+	background-color: #008080;
+	padding: 15px 10px 10px 10px;
+	color: #fff;
+    	font-size: 10px;
+}
+#footer2 p {
+    margin: 10px 0px 0px 0px;
+}
+.btn-primary {
+	background-color: #008080;
+	border-color: #008080;
+}
+.btn-primary:hover {
+	color: #008080;
+	background-color: #000;
+	border-color: #000;
+}
+hr {
+	border-top: 5px solid rgba(0,0,0,0.1);
+}
+hr.headerLine {
+	border-top: 5px solid rgba(0,0,0,0.1);
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+/** Text and Font **/
+.text-primary, .text-secondary, h1, h2, h3 {
+	font-family: 'Fjalla One', sans-serif;
+}
+h3 {
+	font-size: 1.6em;
+}
+.fas {
+	color: #008080;
+}
+.fa-bars {
+	font-size: 2em;
+	float: right;
+}
+.fab {
+	font-size: 1.8em;
+	border-radius: 50%;
+	margin: 0px 10px;
+	color: #fff;
+}
+a {
+	color: #008080;
+}
+a:hover {
+	color: #888;
+	text-decoration: none;
+}
+.lighttext {
+	font-weight: 100;
+}
+
+/** Position **/
+.flex {
+	display: flex;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.text-right {
+	text-align: right;
+}
+.padding-0 {
+	padding: 0px;
+}
+.grid {
+	display: grid;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+@media (min-width: 200px) and (max-width: 800px) {
+	#navcontainer, #navmenu {
+		display: block;
+	}
+	button.navbar-toggler {
+		display: contents;
+	}
+	#aboutSection, #portfolioSection, #contactSection {
+		padding: 20px;
+	}
+	#profilepic {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none !important;
+		width: 180px;
+	}
+	#about1, #about2 {
+		text-align: center;
+	}
+	.card img {
+		height: auto;
+	}
+}
