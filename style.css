@@ -11,6 +11,7 @@ body {
 }
 #imgDiv {
 	display: inline-block;
+	margin-bottom: 0.8em;
 }
 #navbar {
 	height: 60px;
@@ -187,10 +188,13 @@ h3 {
 	float: right;
 }
 .fab {
-	font-size: 3em;
+	font-size: 1.3em;
 	border-radius: 50%;
 	margin: 0px 10px;
-	color: #fff;
+	color: #008080;
+}
+#links a:hover i {
+    color: #000;
 }
 a {
 	color: #008080;
