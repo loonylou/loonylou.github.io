@@ -31,7 +31,10 @@ body {
 	font-size: 1.5em;
 }
 .nav-link {
-	color: #ccc;
+	color: #fff;
+}
+.nav-link:hover {
+	color: #000;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	background-color: #fff;
@@ -184,7 +187,7 @@ h3 {
 	float: right;
 }
 .fab {
-	font-size: 1.8em;
+	font-size: 2em;
 	border-radius: 50%;
 	margin: 0px 10px;
 	color: #fff;
