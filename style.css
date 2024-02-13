@@ -69,6 +69,10 @@ body {
 	padding-bottom: 110px !important;
 	display: block !important;
 }
+#about1 {
+    text-align: center;
+    line-height: 2em;
+}
 #sitename {
 	color: #fff !important;
 	top: 7px;
